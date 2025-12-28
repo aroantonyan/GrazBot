@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="ChooseOptionText" xml:space="preserve">
+    <value>Ընտրիր տարբերակներից մեկը 👇</value>
+  </data>
+    <data name="PlayNewButton" xml:space="preserve">
+    <value>🎮Նոր Գրազ</value>
+  </data>
+    <data name="CloseBotButton" xml:space="preserve">
+    <value>❌ Փակել բոտը</value>
+  </data>
+    <data name="InProgressButton" xml:space="preserve">
+    <value>🔥 Խաղացվող</value>
+  </data>
+    <data name="StatisticsButton" xml:space="preserve">
+    <value>📊 Վիճակագրություն</value>
+  </data>
+    <data name="HistoryButton" xml:space="preserve">
+    <value>⏳ Տալիք</value>
+  </data>
+    <data name="LanguageButton" xml:space="preserve">
+    <value>🌍 Լեզու</value>
+  </data>
+    <data name="GivenGrazesButton" xml:space="preserve">
+    <value>🤝 Տված</value>
+  </data>
+    <data name="BackButton" xml:space="preserve">
+    <value>⬅️ Հետ</value>
+  </data>
+    <data name="Team1SelectionHeader" xml:space="preserve">
+    <value>Ընտրեք թիմ 1-ի անդամներին</value>
+  </data>
+    <data name="GrazCancelled" xml:space="preserve">
+    <value>Գրազը չեղարկվեց ❌</value>
+  </data>
+    <data name="BotClosed" xml:space="preserve">
+    <value>Բոտը փակվեց ❌</value>
+  </data>
+    <data name="DeleteNotAllowedWarning" xml:space="preserve">
+    <value>⚠️ Միայն թիմ 1 / թիմ 2 անդամները կարող են ջնջել գրազը</value>
+  </data>
+    <data name="NoMemberForTeamWarning" xml:space="preserve">
+    <value>⚠️ Խնդրում ենք թիմի համար ընտրել առնվազն 1 անդամ</value>
+  </data>
+    <data name="Team1OverlapWarning" xml:space="preserve">
+    <value>⚠️ Խնդրում ենք 2-րդ թիմի համար թողնել առնվազն 1 ազատ խաղացող</value>
+  </data>
+    <data name="SessionExpiredWarning" xml:space="preserve">
+    <value>⚠️ Բոտը փակվեց անգործության պատճառով</value>
+  </data>
+    <data name="GrazNotFound" xml:space="preserve">
+    <value>❌ Գրազը չի գտնվել կամ արդեն ավարտված է</value>
+  </data>
+    <data name="DescriptionHeader" xml:space="preserve">
+    <value>Մեջը ինչ ա?</value>
+  </data>
+    <data name="DeadlineHeader" xml:space="preserve">
+    <value>Վերջնաժամկետ</value>
+  </data>
+    <data name="DoneButton" xml:space="preserve">
+    <value>✅ Հաստատել</value>
+  </data>
+    <data name="InProgressEmptyText" xml:space="preserve">
+    <value>Խաղացվող խաղեր 👇  
+      (Ակտիվ գրազներ չեն գտնվել)</value>
+  </data>
+    <data name="InProgressHeaderText" xml:space="preserve">
+    <value>Խաղացվող խաղեր 👇</value>
+  </data>
+    <data name="Team2SelectionHeader" xml:space="preserve">
+    <value>Ընտրեք թիմ 2-ի անդամներին</value>
+  </data>
+    <data name="HistoryEmptyText" xml:space="preserve">
+    <value>Գրազների պատմություն 👇
+      (Ավարտված գրազներ չեն գտնվել)</value>
+  </data>
+    <data name="HistoryHeaderText" xml:space="preserve">
+    <value>Գրազների պատմություն 👇</value>
+  </data>
+    <data name="AnnounceGrazFinishedText" xml:space="preserve">
+    <value>🏆 Գրազն ավարտվեց!</value>
+  </data>
+    <data name="WinnerPrefix" xml:space="preserve">
+    <value>🏆 Հաղթող</value>
+  </data>
+    <data name="SelectedGrazPrefixText" xml:space="preserve">
+    <value>Ընտրված գրազ</value>
+  </data>
+    <data name="CancelButton" xml:space="preserve">
+    <value>❌ Չեղարկել</value>
+  </data>
+    <data name="SelectedLabel" xml:space="preserve">
+    <value>Ընտրված են</value>
+  </data>
+    <data name="Team1Label" xml:space="preserve">
+    <value>Թիմ 1</value>
+  </data>
+    <data name="Team2Label" xml:space="preserve">
+    <value>Թիմ 2</value>
+  </data>
+    <data name="DescriptionHeaderText" xml:space="preserve">
+    <value>Մեջը ինչ ա?</value>
+  </data>
+  <data name="GrazSummaryDescriptionLabel" xml:space="preserve">
+    <value>Գրազ</value>
+  </data>
+  <data name="ReviewHeaderText" xml:space="preserve">
+    <value>Վերանայում</value>
+  </data>
+  <data name="DeadlineLabel" xml:space="preserve">
+    <value>Վերջնաժամկետ</value>
+  </data>
+  <data name="ConfirmButton" xml:space="preserve">
+    <value>✅ Հաստատել</value>
+  </data>
+  <data name="SavedHeaderText" xml:space="preserve">
+    <value>✅ Գրազը պահպանված է</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>🗑 Ջնջել գրազը</value>
+  </data>
+  <data name="VsText" xml:space="preserve">
+    <value>VS</value>
+  </data>
+  <data name="GrazCancelledText" xml:space="preserve">
+    <value>❌ Գրազի ստեղծումը չեղարկվեց</value>
+  </data>
+  <data name="SelectLanguageText" xml:space="preserve">
+    <value>Ընտրեք լեզուն</value>
+  </data>
+  <data name="LanguageChangedText" xml:space="preserve">
+    <value>Լեզուն փոխվեց Հայերեն 🇦🇲</value>
+  </data>
+  <data name="GrazLabel" xml:space="preserve">
+    <value>Գրազ</value>
+  </data>
+  <data name="GivenButton" xml:space="preserve">
+    <value>Տվին 💪</value>
+  </data>
+  <data name="NotGivenButton" xml:space="preserve">
+    <value>Ֆուֆլո են 🤮</value>
+  </data>
+  <data name="PlayedAtLabel" xml:space="preserve">
+    <value>Խաղացվել է</value>
+  </data>
+  <data name="NotGivenNotAllowed" xml:space="preserve">
+    <value>Չտալ չկա❗️❗️❗️
+    Գողերի հետ հարց կլնի...</value>
+  </data>
+  <data name="GivenConfirmOnlyWinnerWarning" xml:space="preserve">
+    <value>Միայն հաղթող թիմի խաղացողը կարող է հաստատել, որ գրազը տված է ❗</value>
+  </data>
+  <data name="GrazGivenTitleText" xml:space="preserve">
+    <value>Գրազը տված ա 🏆</value>
+  </data>
+  <data name="ThanksToWinnersText" xml:space="preserve">
+    <value>Ապրեն կրողներն էլ</value>
+  </data>
+  <data name="ThanksToLosersText" xml:space="preserve">
+    <value>Կրվողներն էլ</value>
+  </data>
+</root> 

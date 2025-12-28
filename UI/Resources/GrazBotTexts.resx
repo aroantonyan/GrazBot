@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="ChooseOptionText" xml:space="preserve">
+    <value>Choose one option 👇</value>
+  </data>
+    <data name="PlayNewButton" xml:space="preserve">
+    <value>🎮 Play New Graz</value>
+  </data>
+    <data name="CloseBotButton" xml:space="preserve">
+    <value>❌ Close bot</value>
+  </data>
+    <data name="InProgressButton" xml:space="preserve">
+    <value>🔥 In Progress Games</value>
+  </data>
+    <data name="StatisticsButton" xml:space="preserve">
+    <value>📊 Statistics</value>
+  </data>
+    <data name="HistoryButton" xml:space="preserve">
+    <value>⏳ To Be Given</value>
+  </data>
+    <data name="LanguageButton" xml:space="preserve">
+    <value>🌍 Language</value>
+  </data>
+    <data name="GivenGrazesButton" xml:space="preserve">
+    <value>🤝 Given</value>
+  </data>
+    <data name="BackButton" xml:space="preserve">
+    <value>⬅️ Back</value>
+  </data>
+    <data name="Team1SelectionHeader" xml:space="preserve">
+    <value>Select team 1 members</value>
+  </data>
+    <data name="GrazCancelled" xml:space="preserve">
+    <value>Graz creation cancelled ❌</value>
+  </data>
+    <data name="BotClosed" xml:space="preserve">
+    <value>Graz Bot Closed ❌</value>
+  </data>
+    <data name="DeleteNotAllowedWarning" xml:space="preserve">
+    <value>⚠️ Only Team 1 / Team 2 members can delete this graz</value>
+  </data>
+    <data name="NoMemberForTeamWarning" xml:space="preserve">
+    <value>⚠️ Please select at least 1 member for a Team</value>
+  </data>
+    <data name="Team1OverlapWarning" xml:space="preserve">
+    <value>⚠️ Team 1 is full. Please leave at least 1 player available for Team 2</value>
+  </data>
+    <data name="SessionExpiredWarning" xml:space="preserve">
+    <value>⚠️ Session closed because of timeout</value>
+  </data>
+    <data name="GrazNotFound" xml:space="preserve">
+    <value>❌ Graz not found or already completed</value>
+  </data>
+    <data name="DescriptionHeader" xml:space="preserve">
+    <value>What's inside?</value>
+  </data>
+    <data name="DeadlineHeader" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+    <data name="DoneButton" xml:space="preserve">
+    <value>✅ Done</value>
+  </data>
+    <data name="InProgressEmptyText" xml:space="preserve">
+    <value>In progress games 👇
+      
+      (no active graz yet)</value>
+  </data>
+    <data name="InProgressHeaderText" xml:space="preserve">
+    <value>In progress games 👇</value>
+  </data>
+    <data name="Team2SelectionHeader" xml:space="preserve">
+    <value>Select team 2 members</value>
+  </data>
+    <data name="HistoryEmptyText" xml:space="preserve">
+    <value>Graz history 👇
+      
+      (no finished graz yet)</value>
+  </data>
+    <data name="HistoryHeaderText" xml:space="preserve">
+    <value>Graz history 👇</value>
+  </data>
+    <data name="AnnounceGrazFinishedText" xml:space="preserve">
+    <value>🏆 Graz finished!</value>
+  </data>
+    <data name="WinnerPrefix" xml:space="preserve">
+    <value>🏆 Winner</value>
+  </data>
+    <data name="SelectedGrazPrefixText" xml:space="preserve">
+    <value>Selected graz</value>
+  </data>
+    <data name="CancelButton" xml:space="preserve">
+    <value>❌ Cancel</value>
+  </data>
+    <data name="SelectedLabel" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+    <data name="Team1Label" xml:space="preserve">
+    <value>Team 1</value>
+  </data>
+    <data name="Team2Label" xml:space="preserve">
+    <value>Team 2</value>
+  </data>
+    <data name="DescriptionHeaderText" xml:space="preserve">
+    <value>What's the graz?</value>
+  </data>
+  <data name="GrazSummaryDescriptionLabel" xml:space="preserve">
+    <value>Graz</value>
+  </data>
+  <data name="ReviewHeaderText" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="DeadlineLabel" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="ConfirmButton" xml:space="preserve">
+    <value>✅ Confirm</value>
+  </data>
+  <data name="SavedHeaderText" xml:space="preserve">
+    <value>✅ Graz saved</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>🗑 Delete graz</value>
+  </data>
+  <data name="VsText" xml:space="preserve">
+    <value>VS</value>
+  </data>
+  <data name="GrazLabel" xml:space="preserve">
+    <value>Graz</value>
+  </data>
+  <data name="GrazCancelledText" xml:space="preserve">
+    <value>❌ Graz creation cancelled</value>
+  </data>
+  <data name="SelectLanguageText" xml:space="preserve">
+    <value>Select the language</value>
+  </data>
+  <data name="LanguageChangedText" xml:space="preserve">
+    <value>The language was changed to English 🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧 </value>
+  </data>
+  <data name="GivenButton" xml:space="preserve">
+    <value>They gave 💪</value>
+  </data>
+  <data name="NotGivenButton" xml:space="preserve">
+    <value>Deadbeat 🤮</value>
+  </data>
+  <data name="PlayedAtLabel" xml:space="preserve">
+    <value>Played at</value>
+  </data>
+  <data name="NotGivenNotAllowed" xml:space="preserve">
+    <value>Deadbeats have nothing to do in this chat...</value>
+  </data>
+  <data name="GivenConfirmOnlyWinnerWarning" xml:space="preserve">
+    <value>Only a player from the winning team can confirm that the graz is given ❗</value>
+  </data>
+  <data name="GrazGivenTitleText" xml:space="preserve">
+    <value>The Graz is given 🏆</value>
+  </data>
+  <data name="ThanksToWinnersText" xml:space="preserve">
+    <value>Thanks both to winners</value>
+  </data>
+  <data name="ThanksToLosersText" xml:space="preserve">
+    <value>And to losers</value>
+  </data>
+  
+</root>

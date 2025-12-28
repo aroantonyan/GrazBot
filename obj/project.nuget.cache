@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qNR4iOTnZzk=",
+  "success": true,
+  "projectFilePath": "/Users/aroadmin/Desktop/Telegram Bot/TelegramBot/TelegramBot/TelegramBot.csproj",
+  "expectedPackageFiles": [
+    "/Users/aroadmin/.nuget/packages/jetbrains.annotations/2025.2.4/jetbrains.annotations.2025.2.4.nupkg.sha512",
+    "/Users/aroadmin/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/aroadmin/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
