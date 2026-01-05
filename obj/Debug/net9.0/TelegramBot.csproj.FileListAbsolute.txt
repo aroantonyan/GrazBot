@@ -38,3 +38,4 @@
 /Users/aroadmin/Desktop/Telegram Bot/TelegramBot/TelegramBot/obj/Debug/net9.0/TelegramBot.csproj.GenerateResource.cache
 /Users/aroadmin/Desktop/Telegram Bot/TelegramBot/TelegramBot/obj/Debug/net9.0/hy/TelegramBot.resources.cs
 /Users/aroadmin/Desktop/Telegram Bot/TelegramBot/TelegramBot/obj/Debug/net9.0/hy/TelegramBot.resources.dll
+/Users/aroadmin/Desktop/Telegram Bot/TelegramBot/TelegramBot/obj/Debug/net9.0/TelegramBot.sourcelink.json
