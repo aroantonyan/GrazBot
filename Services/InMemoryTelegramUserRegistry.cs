@@ -27,10 +27,4 @@ public sealed class InMemoryTelegramUserRegistry : ITelegramUserRegistry
 
         return [];
     }
-
-    public bool TryGet(long chatId, long telegramUserId, out TelegramUser user)
-    {
-        user = null!;
-        return _chatUsers.TryGetValue(chatId, out var usersInChat) && usersInChat.TryGetValue(telegramUserId, out user);
-    }
 }

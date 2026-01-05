@@ -73,7 +73,7 @@ public sealed class TelegramApiClient(
 
     private string BuildUrl(string method) => $"https://api.telegram.org/bot{_botToken}/{method}";
 
-    public async Task<T?> PostAsync<T>(string url, object payload, CancellationToken ct)
+    private async Task<T?> PostAsync<T>(string url, object payload, CancellationToken ct)
     {
         using var response = await httpClient.PostAsJsonAsync(url, payload, JsonOptions, ct);
         var body = await response.Content.ReadAsStringAsync(ct);
@@ -92,18 +92,12 @@ public sealed class TelegramApiClient(
         if (apiResponse is null)
             throw new InvalidOperationException($"Telegram returned empty response. Body: {body}");
 
-        if (!apiResponse.Ok)
-        {
-            if (apiResponse.ErrorCode == 400 &&
-                apiResponse.Description?.Contains("message is not modified", StringComparison.OrdinalIgnoreCase) == true)
-            {
-                logger.LogInformation("Telegram edit ignored (message not modified).");
-                return default;
-            }
-
+        if (apiResponse.Ok) return apiResponse.Result;
+        if (apiResponse.ErrorCode != 400 ||
+            apiResponse.Description?.Contains("message is not modified", StringComparison.OrdinalIgnoreCase) != true)
             throw new InvalidOperationException($"Telegram call failed: {body}");
-        }
+        logger.LogInformation("Telegram edit ignored (message not modified).");
+        return default;
 
-        return apiResponse.Result;
     }
 }
